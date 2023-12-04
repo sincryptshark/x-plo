@@ -1,2 +1,2 @@
-# x-plo
-This tool is small demonstration of how a r@nsomware works 
+# X-PLO
+This tool is small demonstration of how a ransomware works 
