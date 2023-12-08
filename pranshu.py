@@ -44,7 +44,11 @@ class Functions:
     @cache
     def EncryptFiles(self,path):
         self.paths = path
-        self.oldpath = os.getcwd()+ '/'
+        if os.name=='nt':
+            samay = '\\'
+        else:
+            samay = '/'
+        self.oldpath = os.getcwd()+ samay
         os.chdir(self.paths)
         for i in os.listdir():
             with open(i,'rb') as read:
@@ -54,6 +58,7 @@ class Functions:
                 writes.write(self.enc)
         os.chdir(self.oldpath)
         return r+"Khatam Folder !!!"
+
 
 
 class Main(Functions):
