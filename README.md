@@ -18,12 +18,12 @@ Only For Windows / Linux
 ### Prerequisites
 
 - Python Terminal
-- Linux
+- Linux Root Terminal
 - File Manager Access
 
 ## 🙌 Acknowledgments
 
-Thanks @samay825 For Guiding In This Project
+Thanks @samay825 For Contributing In This Project
 
 ## 📬 Contact
 
